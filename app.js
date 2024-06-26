@@ -10,10 +10,10 @@ document.getElementById("btnguess").onclick = function () {
         return;
     }
     if (x === randomNumber) {
-        alert("You win...! " + guess + " GUESS");
+        alert("You win...! "+ " GUESS NO."+ guess );
     } else if (x > randomNumber) {
-        alert("Sorry...! Try a Smaller NO."+ guess);
+        alert("Sorry...! Try a Smaller Number | NO."+ guess);
     } else {
-        alert("Sorry...! Try a Greater NO."+ guess);
+        alert("Sorry...! Try a Greater Number | NO."+ guess);
     }
 };
