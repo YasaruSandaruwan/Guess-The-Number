@@ -12,8 +12,8 @@ document.getElementById("btnguess").onclick = function () {
     if (x === randomNumber) {
         alert("You win...! " + guess + " GUESS");
     } else if (x > randomNumber) {
-        alert("Sorry...! Try a Smaller NO.");
+        alert("Sorry...! Try a Smaller NO."+ guess);
     } else {
-        alert("Sorry...! Try a Greater NO.");
+        alert("Sorry...! Try a Greater NO."+ guess);
     }
 };
